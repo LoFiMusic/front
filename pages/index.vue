@@ -233,9 +233,9 @@ export default {
   flex: 0 0 auto
 
 .txt
-  font-size: 32px
-  margin-top: 15px
-  margin-bottom: 15px
+  font-size: 20px
+  margin-top: 10px
+  margin-bottom: 10px
 
 
 .sound_left
