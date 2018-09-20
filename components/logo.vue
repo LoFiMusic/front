@@ -9,5 +9,5 @@ export default {
 
 <style lang="sass">
 .logo
-    width: 250px
+    width: 150px
 </style>
