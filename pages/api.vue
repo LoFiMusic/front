@@ -61,11 +61,14 @@ export default {
   .status
     color: rgb(86, 191, 3)
     font-weight: 300
-  .text
-    // position: relative
-    font-weight: 100
-    margin-top: 25px
-    display: inline-block
-    font-size: 25px
-    color: rgb(23, 23, 23)
+    
+    .text
+      text-align: center
+      position: relative
+      font-weight: 100
+      margin-top: 25px
+      display: inline-block
+      font-size: 25px
+      font-weight: 300
+      color: rgb(23, 23, 23)
 </style>
