@@ -1,0 +1,159 @@
+//------------- Main Style-----------------//
+@import "./grid/grid.scss"
+body
+  font-family: "Proxima Nova"
+  src: url("/font/Proxima-Nova/ProximaNova-Extrabld.ttf")
+  font-size: 22px
+  font-style: normal
+  font-weight: 300
+  color: rgb(255, 255, 255)
+
+
+
+@font-face
+  font-family: "Proxima Nova"
+  src: url("/font/Proxima-Nova/ProximaNova-Extrabld.ttf")
+  font-size: 22px
+  font-style: normal
+  font-weight: 300
+  color: rgb(255, 255, 255)
+
+//------------- Main Style-----------------//
+
+// ------------ Link Style ----------------//
+a:link
+  color: rgba(255, 255, 255, 1)
+  font-size: 14px
+  text-decoration: none
+
+
+a:visited
+  color: rgba(255, 255, 255, 1)
+  text-decoration: none
+
+a:hover
+  color: rgba(251, 73, 68, 0.87)
+  text-decoration: none
+
+a:active
+  color: rgba(251, 68, 68, 0.87)
+  text-decoration: none
+
+a.posts_head_link
+  font-size:  21px!important
+  color: rgba(0,0,0,.84)!important
+  fill: rgba(0,0,0,.84)!important
+
+a.posts_body_link
+   font-size: 14px
+   color: rgba(0,0,0,.54)!important
+   fill: rgba(0,0,0,.54)!important
+
+// ------------ Link Style ----------------//
+// ------------ Input Style ----------------//
+input[readonly], input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], select
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    border-style: solid
+    background-color: white
+    border-width: 1px
+    -webkit-box-shadow: none
+    box-shadow: none
+    display: block
+    min-height: 32px
+    outline: none
+    overflow: hidden
+    -o-text-overflow: ellipsis
+    text-overflow: ellipsis
+    text-shadow: none
+    -webkit-transition: all .15s ease-in-out
+    -o-transition: all .15s ease-in-out
+    transition: all .15s ease-in-out
+    width: 100%
+    border-color: #e1e1e1
+    line-height: unset
+    padding: 0 0 1px 12px
+
+// ------------ Input Style ----------------//
+
+// ------------ Button Style ---------------//
+.button_create
+  color: #fff
+  background-color: #34c2ff
+  border-color: #34c2ff
+  display: inline-block
+  padding: 6px 12px
+  font-size: 14px
+  font-weight: 400
+  line-height: 1.42857143
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  -ms-touch-action: manipulation
+  touch-action: manipulation
+  cursor: pointer
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  background-image: none
+  border: 1px solid transparent
+  border-radius: 4px
+  box-shadow: 0 1px 0 0 #007dee, 0 3px 10px 0 rgba(0,125,238,.22), 0 6px 18px 0 rgba(0,0,0,.15)
+
+
+.button_main
+  color: #fff
+  background-color: #344050
+  border-color: #344050
+  display: inline-block
+  padding: 4px 15px
+  font-size: 14px
+  font-weight: 400
+  line-height: 1.42857143
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  -ms-touch-action: manipulation
+  touch-action: manipulation
+  cursor: pointer
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  background-image: none
+  border: 1px solid transparent
+  border-radius: 4px
+  box-shadow: 0 1px 0 0 #ee0000, 0 3px 10px 0 rgba(238, 79, 0, 0.22), 0 6px 18px 0 rgba(0,0,0,.15)
+
+// ------------ Button Style ---------------//
+
+.slider
+    -webkit-appearance: none
+    width: 200px
+    height: 3px
+    border-radius: 5px
+    background: rgba(214, 211, 211, 0.82)
+    outline: none
+    opacity: 0.7
+    -webkit-transition: .2s
+    transition: opacity .2s
+
+.slider::-webkit-slider-thumb
+    -webkit-appearance: none
+    appearance: none
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    background: #ffffff
+    cursor: pointer
+
+.slider::-moz-range-thumb
+    width: 25px
+    height: 25px
+    border-radius: 50%
+    background: #4CAF50
+    cursor: pointer
