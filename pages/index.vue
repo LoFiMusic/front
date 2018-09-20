@@ -257,6 +257,8 @@ export default {
 .cover
   max-width: 150px
   max-height: 150px
+  min-width: 150px
+  min-height: 150px
 
 .likeclass
   font-size: 20px
