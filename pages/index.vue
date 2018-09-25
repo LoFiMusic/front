@@ -218,7 +218,7 @@ export default {
     },
     like (){
       console.log(this.form)
-      this.$store.dispatch('random/postLike', {id: this.form.id})
+      this.$store.dispatch('random/postLike', {id: this.$store.state.random.items[0].id})
       this.lukas++
     },
 }
