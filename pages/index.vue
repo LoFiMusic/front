@@ -3,7 +3,7 @@
   <loader v-if="loading">
   </loader>
   <div v-else>
-    <div class="theme__overlay theme " :class="{'activeAnime': !wave}">
+    <div class="theme__overlay theme " :class="{'activeAnime': wave}">
       <center>
         <div class="blur_pic">
           <div v-if="pic == 'none_pic'">
@@ -376,7 +376,7 @@ body
     -moz-background-size: cover
     background-size: cover
     z-index: 0
-    background: linear-gradient(141deg, #29383d, #b45d5d, #b46bad, #1b8e9e, #252622)
+    background: linear-gradient(141deg, #3c5d78, #b45d5d, #b46bad, #f98167, #14ebaa)
     background-size: 800% 800%
 
 
