@@ -5,6 +5,7 @@ module.exports = {
   head: {
     title: 'Lofi Music Chanel',
     meta: [
+      { name: "google-site-verification", content: "Tx504EamOK3cSMxmrS4fgpbMEAc7v5h1-doGcHu8WX4" },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'LofiChanMusicChanel' }
