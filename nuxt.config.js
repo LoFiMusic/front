@@ -3,9 +3,10 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Lofi Music Chanel - музыкальный канал в стиле LOFI',
+    title: 'Lo-fi Music Chanel - музыкальный канал в стиле LOFI',
     meta: [
       { name: "google-site-verification", content: "Tx504EamOK3cSMxmrS4fgpbMEAc7v5h1-doGcHu8WX4" },
+      { name: "yandex-verification", content: "a61708fd05f065de" },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'LofiChanMusicChanel' }
