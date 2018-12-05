@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Lofi Music Chanel',
+    title: 'Lofi Music Chanel - музыкальный канал в стиле LOFI',
     meta: [
       { name: "google-site-verification", content: "Tx504EamOK3cSMxmrS4fgpbMEAc7v5h1-doGcHu8WX4" },
       { charset: 'utf-8' },
